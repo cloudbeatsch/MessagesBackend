@@ -13,8 +13,7 @@ if (process.env.NODE_ENV == "production") {
         http_port: 3050,
         protocol: "http",
 
-       // mongodb_connection_string: "mongodb://localhost/messages_test",
-       mongodb_connection_string: "mongodb://MongoLab-y:A5aVtSfFdTQMHe.VP9BG93WmcW9HC9y6AMgL.950hug-@ds031088.mongolab.com:31088/MongoLab-y",
+       mongodb_connection_string: "mongodb://localhost/messages_test",
     };
 } else {
     config = {
@@ -22,8 +21,7 @@ if (process.env.NODE_ENV == "production") {
         http_port: 3030,
         protocol: "http",
 
-       // mongodb_connection_string: "mongodb://localhost/messages_dev",
-        mongodb_connection_string: "mongodb://MongoLab-y:A5aVtSfFdTQMHe.VP9BG93WmcW9HC9y6AMgL.950hug-@ds031088.mongolab.com:31088/MongoLab-y",
+       mongodb_connection_string: "mongodb://localhost/messages_dev",
     };        
 }
 
